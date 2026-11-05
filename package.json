@@ -1,0 +1,25 @@
+{
+  "name": "noctu-crucis-studio-web",
+  "private": true,
+  "version": "2.0.0",
+  "description": "夜十字工作室 Noctu Crucis Studio 官方网站 · 现代化重构版",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "build:fast": "vite build",
+    "typecheck": "vue-tsc --noEmit",
+    "preview": "vite preview --host 127.0.0.1 --port 4173"
+  },
+  "dependencies": {
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "typescript": "~5.9.2",
+    "vite": "^7.1.7",
+    "vue-tsc": "^3.1.1"
+  }
+}
